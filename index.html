@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="U,TF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Celsius to Fahrenheit Converter</title>
+</head>
+
+<body> 
+    <header>
+       <h1><u>Celsius to Fahrenheit and kelvin Converter</u> </h1>
+    </header>
+    <div class="main">
+        <form class="form" action="#">
+            <!-- <fieldset > -->
+                <div class="container">
+                    <h2><u>Celsius Converter</u> </h2>
+                    <div class="input-group">
+                        <input type="number" id="celsiusInput" placeholder="Enter Celsius">
+                        <br>
+                        <h3><u> press On which you wanna convert </u> </h3>
+                        <!-- <br> -->
+                        <button onclick="convert()" ><u>Fahrenheit</u> </button>
+                        <button onclick="convertKelvin()"><u> Kelvin</u> </button>
+                    </div>
+                  <div class="result" id="result"></div>
+                </div>
+            <!-- </fieldset> -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
